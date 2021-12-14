@@ -15,5 +15,40 @@
     <header class="header">
         <img src="img/logo.svg" class="logo" alt="Calculadora: média simples e ponderada">
     </header>
+
+    <main class="main-info-primaria">
+        <div class="container">
+            <div class="div-info-primaria1">
+                <label for="avaliaca">Número de avaliações</label>
+                <input type="number" name="número-de-avalicoes" id="avaliacao" class="num-avaliacao" inputmode="numeric" placeholder="Ex: 3">
+
+                <div class="div-input-radio">
+                    <label for="med-simples">Média simples</label>
+                    <input type="radio" name="media-simples-ponderada" id="med-simples" class="media-simples">
+
+                    <p>ou</p>
+                    
+                    <label for="med-ponderada">Média ponderada</label>
+                    <input type="radio" name="media-simples-ponderada" id="med-ponderada" class="media-ponderada">
+                </div>
+            </div>
+
+            <div class="div-info-primaria2">
+                <div class="div-aprovacao">
+                    <label for="aprovacao">Aprovação</label>
+                    <input type="number" name="aprovacao" id="aprovacao" placeholder="Ex: 6" class="media-aprovacao" inputmode="numeric">
+                </div>
+
+                <div class="div-recuperacao">
+                    <label for="recuperacao">Recuperação</label>
+                    <input type="number" name="recuperacao" id="recuperacao" placeholder="Ex: 4" class="media-recuperacao" inputmode="numeric">
+                </div>
+            </div>
+
+            <div class="div-btn">
+                <button type="button" class="btn btn-inserir-notas">inserir notas</button>
+            </div>
+        </div>
+    </main>
 </body>
 </html>

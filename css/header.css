@@ -1,4 +1,16 @@
 .logo{
-    margin-top: 40px;
-    margin-left: 140px;
+    margin: 20px auto 160px 120px;
+}
+
+@media(max-width: 870px){
+    .logo{
+        margin: 40px auto 80px auto;
+        width: 405px;
+    }
+}
+
+@media(max-width: 400px){
+    .logo{
+        margin-bottom: 50px;
+    }
 }

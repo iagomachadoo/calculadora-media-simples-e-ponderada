@@ -1,0 +1,87 @@
+.num-avaliacao, .media-aprovacao, .media-recuperacao{
+    width: 97px;
+    height: 20px;
+    text-align: center;
+}
+
+.div-info-primaria1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.div-input-radio{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 75px;
+}
+
+.div-input-radio p{
+    margin: 0 30px;
+}
+
+.div-info-primaria2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 80px;
+}
+
+@media(max-width: 870px){
+    .div-info-primaria1{
+        display: initial;
+        
+    }
+
+    .div-input-radio{
+        margin: 20px auto 50px 0;
+    }
+
+    .div-info-primaria2{
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width: 500px){
+    .div-info-primaria1 label{
+        font-size: 1rem;
+    }
+    .div-input-radio{
+        display: block;
+        margin: 40px 0;
+    }
+
+    .div-input-radio label{
+        display: inline-block;
+        font-size: 1rem;
+    }
+
+    .div-input-radio p{
+        margin: 5px 0;
+        font-size: 1rem;
+    }
+
+    .div-info-primaria2 label{
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 400px){
+    .div-info-primaria1 label, .div-info-primaria2 label{
+        font-size: 0.875rem;
+        margin-right: 5px;
+    }
+
+    .div-input-radio p{
+        font-size: 0.875rem;
+    }
+
+    .div-info-primaria1 input, .div-info-primaria2 input{
+        width: 50px;
+    }
+
+    .div-input-radio input{
+        width: initial;
+    }
+}
