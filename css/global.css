@@ -24,6 +24,7 @@
 body{
     font-family: var(--fonte-ibm-plex-sans);
     padding: 20px;
+    background-color: var(--c4);
 }
 
 img{
